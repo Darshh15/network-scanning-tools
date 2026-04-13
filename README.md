@@ -1,62 +1,93 @@
-🚀 Network Scanning Automation
-📌 Project Description
+# Network Scanning Automation
 
-This project automates essential network scanning tools using Python. It includes three main programs:
+## Project Description
 
-Ping Scanner – Checks whether a host is reachable and calculates response time
-ARP Scanner – Retrieves and displays IP-MAC address mappings from the ARP table
-Nmap Scanner – Performs network scanning such as host discovery, port scanning, and service detection
+This project automates essential network scanning tools using Python.
+
+It includes three main programs:
+
+* **Ping Scanner** – Checks whether a host is reachable and calculates response time  
+* **ARP Scanner** – Retrieves and displays IP-MAC address mappings from the ARP table  
+* **Nmap Scanner** – Performs network scanning such as host discovery, port scanning, and service detection  
 
 This project demonstrates the use of Python for cybersecurity and network reconnaissance tasks.
 
-⚙️ Requirements
-Python 3.6 or higher
-Nmap installed on the system
-🔧 How to Install Nmap
-Download Nmap from: https://nmap.org/download.html
-Install using default settings
-Make sure:
-“Add Nmap to PATH” is selected
-Npcap is installed
-✅ Verify Installation
+
+## Requirements
+
+* Python 3.6 or higher  
+* Nmap installed on the system  
+
+
+## How to Install Nmap
+
+1. Download Nmap from:  
+   https://nmap.org/download.html  
+
+2. Install using default settings  
+
+3. Make sure:
+   * Add Nmap to PATH is selected  
+   * Npcap is installed  
+
+### Verify Installation
+
 nmap -v
-▶️ How to Run Each Program
+
+
+## How to Run Each Program
 
 Open terminal in VS Code and run:
 
-1️⃣ Ping Scanner
+### Ping Scanner
+
 python ping_scanner.py
-2️⃣ ARP Scanner
+
+### ARP Scanner
+
 python arp_scanner.py
-3️⃣ Nmap Scanner
+
+### Nmap Scanner
+
 python nmap_scanner.py
-🧪 Example Usage
-🔹 Ping Scanner
 
-Single Host
 
-Ping multiple hosts? n
-Enter hostname or IP: google.com
+## Example Usage
 
-Multiple Hosts
+### Ping Scanner
 
-Ping multiple hosts? y
-Enter hosts: google.com, 8.8.8.8, 127.0.0.1
-🔹 ARP Scanner
-python arp_scanner.py
-Save results to file? y
-🔹 Nmap Scanner
+**Single Host**
 
-Host Discovery
+Ping multiple hosts? n  
+Enter hostname or IP: google.com  
 
-Enter target IP: 127.0.0.1
-Enter choice: 1
+**Multiple Hosts**
 
-Port Scan
+Ping multiple hosts? y  
+Enter hosts: google.com, 8.8.8.8, 127.0.0.1  
 
-Enter target IP: 127.0.0.1
-Enter choice: 2
-📁 Project Structure
+
+### ARP Scanner
+
+python arp_scanner.py  
+Save results to file? y  
+
+
+### Nmap Scanner
+
+**Host Discovery**
+
+Enter target IP: 127.0.0.1  
+Enter choice: 1  
+
+**Port Scan**
+
+Enter target IP: 127.0.0.1  
+Enter choice: 2  
+
+
+## Project Structure
+
 Network-Scanning-Automation/
 │
 ├── Screenshots/
@@ -67,40 +98,49 @@ Network-Scanning-Automation/
 ├── nmap_results.txt
 ├── nmap_scanner.py
 ├── ping_scanner.py
-📊 Features
-🔹 Ping Scanner
-Supports single and multiple host scanning
-Extracts response time
-Cross-platform compatibility
-🔹 ARP Scanner
-Retrieves ARP table
-Extracts IP-MAC mappings
-Displays formatted output
-Option to save results
-🔹 Nmap Scanner
-Checks if Nmap is installed
-Host discovery scan
-Port scanning
-Multiple scan types
-Option to save results
-📸 Screenshots
 
-Screenshots of all program outputs are included in the Screenshots/ folder.
 
-⚠️ Security & Ethics
-Only scan networks you own or have permission to scan
-Unauthorized scanning is illegal and unethical
-This project is for educational purposes only
-👩‍💻 Author
+## Features
 
-Divya M Nagavand
+### Ping Scanner
 
-✅ Conclusion
+* Supports single and multiple host scanning  
+* Extracts response time  
+* Cross-platform compatibility  
 
-This project successfully automates network scanning tools using Python and provides hands-on experience with real-world cybersecurity techniques.
+### ARP Scanner
 
-If you want, I can next:
+* Retrieves ARP table  
+* Extracts IP-MAC mappings  
+* Displays formatted output  
+* Option to save results  
 
-Add GitHub badges (Python, Nmap, license)
-Add screenshots preview in README (looks very impressive)
-Make it resume-ready / portfolio-level 🔥
+### Nmap Scanner
+
+* Checks if Nmap is installed  
+* Host discovery scan  
+* Port scanning  
+* Multiple scan types  
+* Option to save results  
+
+
+## Screenshots
+
+Screenshots are available in the Screenshots/ folder.
+
+
+## Security & Ethics
+
+* Only scan networks you own or have permission to scan  
+* Unauthorized scanning is illegal and unethical  
+* This project is for educational purposes only  
+
+
+## Author
+
+**Darshan S**
+
+
+## Conclusion
+
+This project automates network scanning tools using Python and provides hands-on experience with real-world cybersecurity techniques.
