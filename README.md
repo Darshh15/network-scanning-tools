@@ -88,6 +88,7 @@ Enter choice: 2
 
 ## Project Structure
 
+```
 Network-Scanning-Automation/
 │
 ├── Screenshots/
@@ -98,6 +99,7 @@ Network-Scanning-Automation/
 ├── nmap_results.txt
 ├── nmap_scanner.py
 ├── ping_scanner.py
+```
 
 
 ## Features
