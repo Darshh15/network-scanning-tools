@@ -1,171 +1,106 @@
-# Network Scanning Automation
+🚀 Network Scanning Automation
+📌 Project Description
 
-##  Project Description
+This project automates essential network scanning tools using Python. It includes three main programs:
 
-This project automates basic network scanning tools using Python. It includes:
+Ping Scanner – Checks whether a host is reachable and calculates response time
+ARP Scanner – Retrieves and displays IP-MAC address mappings from the ARP table
+Nmap Scanner – Performs network scanning such as host discovery, port scanning, and service detection
 
-* **Ping Scanner** – Checks host availability and response time
-* **ARP Scanner** – Displays IP-MAC address mappings
-* **Nmap Scanner** – Performs network scans like port scanning and host discovery
+This project demonstrates the use of Python for cybersecurity and network reconnaissance tasks.
 
-
-##  Requirements
-
-* Python 3.6 or higher
-* Nmap installed
-
-
-##  Installation
-
-### Install Python
-
-```bash
-python --version
-```
-
-### Install Nmap
-
-Download from: https://nmap.org/download.html
-
-Verify:
-
-```bash
+⚙️ Requirements
+Python 3.6 or higher
+Nmap installed on the system
+🔧 How to Install Nmap
+Download Nmap from: https://nmap.org/download.html
+Install using default settings
+Make sure:
+“Add Nmap to PATH” is selected
+Npcap is installed
+✅ Verify Installation
 nmap -v
-```
+▶️ How to Run Each Program
 
+Open terminal in VS Code and run:
 
-Enter choice: 2
-## Project Structure 
-
-network-scanning-tools/
-│
-├── ping_scanner.py
-├── arp_scanner.py
-├── nmap_scanner.py
-│
-├── arp_results.txt
-├── nmap_results.txt
-│
-├── screenshots/
-│   ├── ping_output 1.jpeg
-│   ├── ping_output 2.jpeg
-│   ├── arp_output.jpeg
-│   ├── nmap_output 1.jpeg
-│   ├── nmap_output 2.jpeg
-│   ├── nmap_output 3.jpeg
-│
-└── README.md
-
-
-##  How to Run
-
-### Ping Scanner
-
-```bash
+1️⃣ Ping Scanner
 python ping_scanner.py
-```
-
-### ARP Scanner
-
-```bash
+2️⃣ ARP Scanner
 python arp_scanner.py
-```
-
-### Nmap Scanner
-
-```bash
+3️⃣ Nmap Scanner
 python nmap_scanner.py
-```
+🧪 Example Usage
+🔹 Ping Scanner
 
+Single Host
 
-##  Example Usage
-
-### Ping Scanner
-
-Single Host:
-
-```
 Ping multiple hosts? n
 Enter hostname or IP: google.com
-```
 
-Multiple Hosts:
+Multiple Hosts
 
-```
 Ping multiple hosts? y
 Enter hosts: google.com, 8.8.8.8, 127.0.0.1
-```
-
-
-### ARP Scanner
-
-```
+🔹 ARP Scanner
 python arp_scanner.py
 Save results to file? y
-```
+🔹 Nmap Scanner
 
+Host Discovery
 
-### Nmap Scanner
+Enter target IP: 127.0.0.1
+Enter choice: 1
 
-Port Scan:
+Port Scan
 
-```
 Enter target IP: 127.0.0.1
 Enter choice: 2
-```
+📁 Project Structure
+Network-Scanning-Automation/
+│
+├── Screenshots/
+│
+├── README.md
+├── arp_results.txt
+├── arp_scanner.py
+├── nmap_results.txt
+├── nmap_scanner.py
+├── ping_scanner.py
+📊 Features
+🔹 Ping Scanner
+Supports single and multiple host scanning
+Extracts response time
+Cross-platform compatibility
+🔹 ARP Scanner
+Retrieves ARP table
+Extracts IP-MAC mappings
+Displays formatted output
+Option to save results
+🔹 Nmap Scanner
+Checks if Nmap is installed
+Host discovery scan
+Port scanning
+Multiple scan types
+Option to save results
+📸 Screenshots
 
+Screenshots of all program outputs are included in the Screenshots/ folder.
 
-##  Output Files
+⚠️ Security & Ethics
+Only scan networks you own or have permission to scan
+Unauthorized scanning is illegal and unethical
+This project is for educational purposes only
+👩‍💻 Author
 
-Screenshots included:
+Divya M Nagavand
 
-* ping_output 1.jpeg
-* ping_output 2.jpeg
-* arp_output.jpeg
-* nmap_output 1.jpeg
-* nmap_output 2.jpeg
-* nmap_output 3.jpeg
+✅ Conclusion
 
-Text outputs:
+This project successfully automates network scanning tools using Python and provides hands-on experience with real-world cybersecurity techniques.
 
-* arp_results.txt
-* nmap_results.txt
+If you want, I can next:
 
-
-##  Features
-
-### Ping Scanner
-
-* Single and multiple host scanning
-* Response time extraction
-* Cross-platform support
-
-### ARP Scanner
-
-* ARP table retrieval
-* IP-MAC parsing
-* Formatted display
-* Save results to file
-
-### Nmap Scanner
-
-* Nmap installation check
-* Host discovery
-* Port scanning
-* Multiple scan types
-* Save results to file
-
-
-##  Security Note
-
-Only scan networks you own or have permission to scan. Unauthorized scanning is illegal.
-
-
-## Author
-
-Darshan S
-
-
-##  Conclusion
-
-This project demonstrates automation of network scanning tools using Python and provides practical exposure to cybersecurity concepts.
+Add GitHub badges (Python, Nmap, license)
+Add screenshots preview in README (looks very impressive)
+Make it resume-ready / portfolio-level 🔥
