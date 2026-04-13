@@ -34,28 +34,27 @@ nmap -v
 ```
 
 
-##  Project Structure
+Enter choice: 2
+## Project Structure 
 
-```
 network-scanning-tools/
 │
 ├── ping_scanner.py
 ├── arp_scanner.py
 ├── nmap_scanner.py
 │
-├── ping_output 1.jpeg
-├── ping_output 2.jpeg
-├── arp_output.jpeg
-│
-├── nmap_output 1.jpeg
-├── nmap_output 2.jpeg
-├── nmap_output 3.jpeg
-│
 ├── arp_results.txt
 ├── nmap_results.txt
 │
+├── screenshots/
+│   ├── ping_output 1.jpeg
+│   ├── ping_output 2.jpeg
+│   ├── arp_output.jpeg
+│   ├── nmap_output 1.jpeg
+│   ├── nmap_output 2.jpeg
+│   ├── nmap_output 3.jpeg
+│
 └── README.md
-```
 
 
 ##  How to Run
